@@ -1,0 +1,166 @@
+
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.header{
+    height: 40px;
+    background: #2459a2;
+
+}
+.header_content{
+    position: relative;
+    top: 0;
+    width: 60%;
+    margin: 0 auto;
+    height: 40px;
+}
+.icon_title{
+    position: absolute;
+    height: 38px;
+    top: 8px;
+}
+.content_title ul{
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+    height: 40px;
+
+}
+.content_title ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    width: 70px;
+    height: 40px;
+
+}
+.content_title ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    width: 70px;
+    font-size: 12px;
+
+}
+ul li:hover{
+    background: #4cae4c;
+}
+.login_reg{
+    position: absolute;
+    right: 100px;
+}
+.login_reg ul {
+    position: absolute;
+    right: 100px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+.login_reg ul li {
+    width: 40px;
+}
+.zhuce{
+    position: absolute;
+    right: 60px;
+}
+.denglu{
+    position: absolute;
+    right: 0;
+}
+#login_info , #register_info{
+    margin-top: 50px;
+}
+
+.index_content{
+    position: relative;
+    top: 20px;
+    width: 60%;
+    margin: 0 auto;
+    height: 40px;
+}
+.div1 ul{
+    display: inline-block;
+    width: 500px;
+}
+
+.div1 ul li{
+    float: left;
+    margin-left: 40px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.div2 .fabu{
+    border: solid 1px #84a42b;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    float: right;
+    margin-top: -47px;
+    margin-right: 250px;
+}
+.div2 .fabu button{
+    width: 120px;
+    height: 30px;
+    background: #84a42b;
+    font-size: 16px;
+}
+#new_news .modal-dialog{
+    margin: 150px  auto;
+
+}
+
+.news_info{
+    width: 400px;
+    margin: 20px 20px;
+    position: relative;
+}
+.news_title , .news_content{
+    width: 600px;
+}
+.news_content{
+    height: 100px;
+    overflow: auto;
+    text-indent: 2em;
+}
+.others .dianzan {
+    margin-top: 10px;
+    display: inline-block;
+    height: 19.78px;
+    width: 18px;
+    overflow: hidden;
+    background-image: url(/static/images/dianzan.png);
+    background-position: 0 -39px;
+}
+.others .dianzan_already {
+    margin-top: 10px;
+    display: inline-block;
+    height: 19.78px;
+    width: 18px;
+    overflow: hidden;
+    background-image: url(/static/images/dianzan.png);
+    background-position: 0 -18px;
+}
+
+.others .pinglun {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    height: 19.78px;
+    width: 18px;
+    overflow: hidden;
+    background-image: url(/static/images/dianzan.png);
+    background-position: 0 80px;
+}
+
